@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 1350px;
+  height: auto;
+  background-color: #f4f6f7;
+}
+
+.section1 {
+  width: 100%;
+  height: 700px;
+}
+
+.navbar {
+  width: auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f6f7;
+  margin: 0 100px;
+  margin-top: 40px;
+}
+
+.navbar div {
+  display: grid;
+  margin-right: 750px;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__list li {
+  padding: 0 30px;
+}
+
+.content {
+  display: flex;
+}
+
+.card {
+  margin-left: 100px;
+  margin-top: 170px;
+  width: 380px;
+  height: 231px;
+  background-color: #f4f6f7;
+  display: grid;
+}
+
+.card__paragraph {
+  color: #2557ab;
+  font-family: Avenir Next;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card h1 {
+  color: #13253a;
+  font-family: Arial Narrow Bold;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.card_paragraph {
+  color: #13253a;
+  font-family: Avenir Next;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.card button {
+  width: 320px;
+  height: 50px;
+  background-color: #ff7f57;
+  border: none;
+  margin-top: 10px;
+}
+
+.card button span {
+  color: #fff;
+  text-align: center;
+  font-family: Avenir Next;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 50;
+  line-height: normal;
+}
+
+.image img {
+  margin-top: 80px;
+  margin-left: 190px;
+}
+
+/* that's where the second section starts */
+
+.agencyinfo {
+  background-color: white;
+  width: 100%;
+  height: 600px;
+  display: grid;
+}
+
+.agencyinfo__card {
+  width: auto;
+  height: 250px;
+  margin: 0 100px;
+  background-color: white;
+  margin-top: 100px;
+  display: grid;
+}
+
+.agencyinfo__card h1{
+    color: #13253A;
+
+    text-align: center;
+    font-family: Avenir Next;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.options__card {
+  width: 360px;
+  height: 190px;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+}
+
+.options__card h2 {
+  color: #3b4d6c;
+  text-align: center;
+  font-family: Avenir Next;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.options__card p {
+  color: #13253a;
+  text-align: center;
+  font-family: Avenir Next;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 10px;
+}
+
+.web__experience{
+    width: 100%;
+    height: 160px;
+    background-color: #f4f6f7;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.web__experience-content h1{
+    color: #13253A;
+
+    font-family: Avenir Next;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.web__experience-content p{
+    color: #2557AB;
+
+    font-family: Avenir Next;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* 2nd section ends */
+
+.about{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__card{
+    width: 1000px;
+    height: 500px;
+    margin: 0 200px;
+    background-color: white;
+    display: grid;
+}
+
+.about__card h2{
+    color: #13253A;
+    font-family: Avenir Next;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.italic_text{
+    color: #13253A;
+     font-family: Avenir Next;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.logos{
+    width: 900px;
+    height: 60px;
+    background-color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
