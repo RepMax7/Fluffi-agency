@@ -240,6 +240,7 @@ body {
 .logos{
     width: 900px;
     height: 60px;
+    margin-left: 30px;
     background-color: white;
     margin-top: 60px;
     display: flex;
