@@ -347,3 +347,70 @@ line-height: 27px;
   transform: scale(1.2);
   transition: 0.5s;
 }
+
+.contact_input{
+  width: 100%;
+  height: 800px;
+  background-color: #11364E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_card{
+  width: 400px;
+  height: 480px;
+  background-color:#11364E;
+  justify-content: center;
+  display: grid;
+}
+
+.contact_card-title{
+  color: #FFF;
+  text-align: center;
+  font-family: Avenir Next;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.label{
+  color: #FFF;
+
+font-family: Avenir Next;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+input{
+  width: 380px;
+  height: 40px;
+  background-color: #11364E;;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+textarea{
+  margin-top: 10px;
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color: transparent;
+}
+
+.contact_card button{
+  background-color: #ff7f57;
+}
+
+.button__text{
+  color: #FFF;
+  text-align: center;
+  font-family: Avenir Next;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 50;
+  line-height: normal;
+}
